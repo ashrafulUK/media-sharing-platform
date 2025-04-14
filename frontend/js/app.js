@@ -1,6 +1,6 @@
-const IUPS = 'YOUR_IUPS_ENDPOINT';
-const RAI = 'YOUR_RAI_ENDPOINT';
-const BLOB_ACCOUNT = 'https://YOUR_BLOB_STORAGE_NAME.blob.core.windows.net';
+const IUPS = 'https://imageuploadapi1.azurewebsites.net:443/api/uploadImageFlow/triggers/When_a_HTTP_request_is_received/invoke?api-version=2022-05-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=KLZMuudrx8lScwPPoMDr8WPjTk9Tc-eiYfpC05Gpmlw';
+const RAI = 'https://imageuploadapi1.azurewebsites.net:443/api/getallImageFlow/triggers/When_a_HTTP_request_is_received/invoke?api-version=2022-05-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=wPATRrskZTXqzOliozivUdqcTaTXXYY0GF_UbBSjmEI';
+const BLOB_ACCOUNT = 'https://mediashareblob123.blob.core.windows.net';
 
 function submitNewAsset() {
   const formData = new FormData();
